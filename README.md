@@ -22,7 +22,7 @@ This project involves creating a web form that collects information from users f
 - Overall, this project provides a simple and effective way to collect user information for registration and streamline the registration process.
 
 
->We are pleased to present you with a demo version of the project that we have hosted on Github Pages. Follow the link [link to the demo version of the project] to check it out.
+>We are pleased to present you with a demo version of the project that we have hosted on Github Pages. Follow the link [link to the demo version of the project](https://andrew-devcoder.github.io/form-sent/) to check it out.
 ### Установка
 
 Для начала нужно ввести в терминал следующую команду:
