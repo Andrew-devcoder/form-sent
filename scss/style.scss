@@ -1,0 +1,271 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 16px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+
+    font-family: Poppins, sans-serif;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+input {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+.background-desktop {
+    width: 100%;
+    max-height: 100vh;
+    position: absolute;
+    background-color: hsl(0, 100%, 74%);
+
+    @media screen and (max-width: 600px) {
+        display: none;
+    }
+}
+
+.background-mobile {
+    width: 100%;
+    position: absolute;
+    background-color: hsl(0, 100%, 74%);
+
+    display: none;
+
+    @media screen and (max-width: 600px) {
+        display: block;
+    }
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    height: 97vh;
+
+    @media screen and (max-width: 600px) {
+        flex-direction: column;
+        max-width: 100%;
+        padding: 4rem 0;
+    }
+}
+
+.content {
+    display: flex;
+    flex: 50%;
+    flex-direction: column;
+    justify-content: center;
+    isolation: isolate;
+    color: white;
+    padding: 2rem;
+    gap: 2rem;
+
+    &__title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        line-height: 1.2;
+
+        @media screen and (max-width: 600px) {
+            text-align: center;
+            font-size: 2rem;
+            margin: auto;
+        }
+    }
+
+    &__text {
+        font-size: 0.9rem;
+        line-height: 1.5;
+
+        @media screen and (max-width: 600px) {
+            text-align: center;
+        }
+    }
+}
+
+.form {
+    display: flex;
+    flex: 50%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1.5rem;
+
+    isolation: isolate;
+
+    &__title {
+        text-align: center;
+        padding: 1.5rem;
+        line-height: 2;
+
+        border-radius: 8px;
+
+        color: rgb(255, 255, 255);
+        background-color: hsl(248, 32%, 49%);
+        box-shadow: 0 8px 0 hsla(249, 10%, 26%, 0.2);
+
+        @media screen and (max-width: 600px) {
+            padding: 1rem 4rem;
+        }
+
+        & span {
+            font-weight: 600;
+        }
+    }
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        gap: 1rem;
+
+        background-color: white;
+        border-radius: 8px;
+
+        isolation: isolate;
+
+        box-shadow: 0 8px 0 hsla(249, 10%, 26%, 0.2);
+
+        @media screen and (max-width: 600px) {
+            padding: 1.5rem;
+        }
+
+        & p {
+            text-align: center;
+            font-size: 0.6rem;
+            line-height: 1.8;
+            color: hsl(246, 25%, 77%);
+
+            @media screen and (max-width: 600px) {
+                font-size: 0.7rem;
+                padding: 0 2rem;
+            }
+
+            & a {
+                font-weight: 600;
+                color: red;
+            }
+        }
+    }
+}
+
+input {
+    padding: 1rem 2rem;
+
+    font-size: 0.7rem;
+    font-weight: 800;
+
+    color: hsl(249, 10%, 26%);
+    border: 1px solid hsl(246, 25%, 77%);
+    border-radius: 5px;
+
+    outline-color: transparent;
+
+    transition: all 0.3s ease 0s;
+
+    @media screen and (max-width: 600px) {
+        padding: 1rem;
+        font-size: 0.9rem;
+    }
+
+    &:focus,
+    &:hover {
+        border: 1px solid hsla(240, 3%, 85%, 0);
+        box-shadow: 0 0 15px hsl(240, 3%, 85%);
+    }
+}
+
+button {
+    padding: 1rem 1rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    background-color: hsl(154, 59%, 51%);
+    border-radius: 8px;
+    border-bottom: 4px solid hsl(154, 63%, 39%);
+    outline-color: transparent;
+}
+
+input ._error {
+    box-shadow: 0 0 15px hsl(0, 75%, 57%);
+}
