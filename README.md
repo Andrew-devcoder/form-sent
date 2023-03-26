@@ -22,7 +22,30 @@ This project involves creating a web form that collects information from users f
 - Overall, this project provides a simple and effective way to collect user information for registration and streamline the registration process.
 
 
->We are pleased to present you with a demo version of the project that we have hosted on Github Pages. Follow the link [link to the demo version of the project](https://andrew-devcoder.github.io/form-sent/) to check it out.
+>We are pleased to present you with a demo version of the project that we have hosted on Github Pages. Follow the [link to the demo version of the project](https://andrew-devcoder.github.io/form-sent/) to check it out.
+
+### To send a form to email, you need to:
+
+- Install Composer on your computer.
+- Check if your SMTP provider blocks email sending.
+- If you use Windows, check if your OS blocks SMTP sending.
+- Install Open Server or any other local server that supports email sending.
+- Clone this repository.
+- Please note that before using the form, you need to configure it with your email settings in the mail.php file.
+
+<!-- TODO  -->
+Setting up the mail.php file
+First, you need to install Composer on your computer.
+Then, check if your SMTP provider blocks the sending of emails.
+If you're using Windows, also check if your OS blocks SMTP sending.
+Next, you need to install Open Server or any other local server that supports sending email.
+Finally, clone this repository.
+
+Now, let's configure the mail.php file. Please note that it's set up for Gmail.
+Find the "try {" block and look for the comment "// config.php".
+Edit the values: set your email address (e.g. "example@gmail.com") for $mail->Username and duplicate it for $mail->setFrom(EMAIL_FROM).
+In the $mail->addAddress(EMAIL_TO) line, replace the EMAIL_TO argument with the email address where you want to receive the form submissions (you can use your own email for testing purposes).
+Finally, let's discuss the $mail->Password = SMTP_PASSWORD; line.
 ### Установка
 
 Для начала нужно ввести в терминал следующую команду:
