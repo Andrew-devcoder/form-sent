@@ -33,7 +33,6 @@ This project involves creating a web form that collects information from users f
 - Clone this repository.
 - Please note that before using the form, you need to configure it with your email settings in the mail.php file.
 
-<!-- TODO  -->
 Setting up the mail.php file
 First, you need to install Composer on your computer.
 Then, check if your SMTP provider blocks the sending of emails.
@@ -45,7 +44,9 @@ Now, let's configure the mail.php file. Please note that it's set up for Gmail.
 Find the "try {" block and look for the comment "// config.php".
 Edit the values: set your email address (e.g. "example@gmail.com") for $mail->Username and duplicate it for $mail->setFrom(EMAIL_FROM).
 In the $mail->addAddress(EMAIL_TO) line, replace the EMAIL_TO argument with the email address where you want to receive the form submissions (you can use your own email for testing purposes).
+
 Finally, let's discuss the $mail->Password = SMTP_PASSWORD; line.
+To create this password, you need to go to your "account" (not your Gmail account but your Google account). In the search bar, type "app passwords". Choose any name to orient yourself. You will be provided with a password that you need to copy and paste instead of SMTP_PASSWORD in the brackets 'your password'. It's important to note that you won't be able to view the password again, so don't close this browser tab until you use it.
 ### Установка
 
 Для начала нужно ввести в терминал следующую команду:
