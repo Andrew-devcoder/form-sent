@@ -1,6 +1,6 @@
 # User Registration Form Submission
 ![](./reference/mobile-design.jpg)
-![](./reference/desktop-design.jpggg)
+![](./reference/desktop-design.jpg)
 
 Description:
 This project involves creating a web form that collects information from users for registration. After the user inputs their information, the form sends the received information to a specified email address for processing.
