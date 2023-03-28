@@ -12,6 +12,7 @@ This project involves creating a web form that collects information from users f
     -   [Prerequisites](#Prerequisites)
     -   [Installation](#Installation)
 -   [Privacy and Security](#Privacy-and-Security)
+-   [Generating and Including the Autoload File](#Generating-and-Including-the-Autoload-File)
 
 
 
@@ -77,30 +78,22 @@ To set up email form submission, follow these steps:
 > Privacy is a critical aspect when setting up email form submission. To ensure the privacy of sensitive information, it is highly recommended that you take the following precautions:
 
 - **Do not share your email sending password:** Avoid sharing your email sending password through email or any other communication method like chats or messages. Keep the password in a secure location that only you have access to.
-- **Do not publish the configuration file on public resources:** Never publish the configuration file (e.g., mail.php) on public resources like GitHub or other hosting services. Instead, use a config.php file where you can create variables to store configuration data. It is also recommended to add the ** 
-
-```php 
-config.php
-```
-** file to **`.gitignore`** to exclude it from the repository when uploading to GitHub.
+- **Do not publish the configuration file on public resources:** Never publish the configuration file (e.g., mail.php) on public resources like GitHub or other hosting services. Instead, use a config.php file where you can create variables to store configuration data. It is also recommended to add the **`config.php`** file to **`.gitignore`** to exclude it from the repository when uploading to GitHub.
 
 *Following these precautions will help you protect your privacy and secure your project from potential threats. Please make sure to adhere to these recommendations when setting up email form submission.*
 
-That's it! Now you're ready to start receiving form submissions via email.
 
 
 
-### Установка
 
-Для начала нужно ввести в терминал следующую команду:
+## Generating and Including the Autoload File
+To complete the project setup, you need to run the command **`composer dumpautoload`** in the terminal, which generates a new file **`vendor/autoload.php`**. This file contains a list of all the classes and their locations, and is already included in your code (**`mail.php`**) to automatically load the classes when they are used.
 
-``composer dumpautoload``
+Running this command allows you to add all the necessary classes listed in the **`composer.json`** file to the project.
+
+### That's it! Now you're ready to start receiving form submissions via email.
 
 
-
-запускаем проект через сервер ( можно использовать например open server )
-
-js скрипт добавлен для проверки валидации и обновления формы
 
 # Frontend Mentor - Intro component with sign up form solution
 
@@ -204,8 +197,3 @@ Use this section to outline areas that you want to continue focusing on in futur
 This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
 **Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
-
-
-
-
-ознакомиться для себя https://getcomposer.org/doc/01-basic-usage.md
