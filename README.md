@@ -34,7 +34,7 @@ This project involves creating a web form that collects information from users f
 - Please note that before using the form, you need to configure it with your email settings in the mail.php file.
 
 ### Setting up the mail.php file
-* First, you need to **install Composer** on your computer.
+First, you need to **install Composer** on your computer.
 Then, check if your SMTP provider blocks the sending of emails.
 If you're using Windows, also check if your OS blocks SMTP sending.
 Next, you need to install Open Server or any other local server that supports sending email.
