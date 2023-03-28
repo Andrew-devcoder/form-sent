@@ -2,7 +2,7 @@
 
 <div style="display: flex; justify-content: around-between; align-items: flex-end; flex-direction: row;">
   <img src="./screenshots/andrew-devcoder.github.io_form-sent_mobile.png" style="object-fit: contain;  width: 28%;"/>
-  <img src="./screenshots/andrew-devcoder.github.io_form-sent_.png" style="object-fit: contain;  width: 71%;"/>
+  <img src="./screenshots/andrew-devcoder.github.io_form-sent_.png" style="object-fit: contain; align-self: center;  width: 71%;"/>
 </div>
 
 
