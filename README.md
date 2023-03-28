@@ -1,9 +1,8 @@
 # User Registration Form Submission
-<!-- ![](./screenshots/andrew-devcoder.github.io_form-sent_.png) -->
 
 <div style="display: flex;">
-  <img src="./screenshots/andrew-devcoder.github.io_form-sent_mobile.png" width="30%" />
-  <img src="./screenshots/andrew-devcoder.github.io_form-sent_.png" width="70%" />
+  <img src="./screenshots/andrew-devcoder.github.io_form-sent_mobile.png"  />
+  <img src="./screenshots/andrew-devcoder.github.io_form-sent_.png" />
 </div>
 
 
