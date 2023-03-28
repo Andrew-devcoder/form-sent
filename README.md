@@ -1,6 +1,6 @@
 # User Registration Form Submission
 
-<div style="display: flex; align-items: center; flex-direction: row">
+<div style="display: flex; align-items: center; flex-direction: row;">
   <img src="./screenshots/andrew-devcoder.github.io_form-sent_mobile.png" style="object-fit: contain; height: 200px; width: 100%;"/>
   <img src="./screenshots/andrew-devcoder.github.io_form-sent_.png" style="object-fit: contain; height: 200px; width: 100%;"/>
 </div>
