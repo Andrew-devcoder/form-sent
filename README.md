@@ -1,6 +1,12 @@
 # User Registration Form Submission
 ![](./screenshots/andrew-devcoder.github.io_form-sent_.png)
 
+<div style="display: flex;">
+  <img src="./screenshots/andrew-devcoder.github.io_form-sent_.png" width="400" />
+  <img src="image2.png" width="400" />
+</div>
+
+
 Description:
 This project involves creating a web form that collects information from users for registration. After the user inputs their information, the form sends the received information to a specified email address for processing.
 
