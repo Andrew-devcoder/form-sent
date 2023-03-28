@@ -34,7 +34,6 @@ This project involves creating a web form that collects information from users f
 - Please note that before using the form, you need to configure it with your email settings in the mail.php file.
 
 
-
 ## How to Set up Email Form Submission
 ### Prerequisites
 Before you begin, ensure that you have the following prerequisites:
@@ -62,6 +61,13 @@ To set up email form submission, follow these steps:
     - Choose any name to orient yourself.
     - You will be provided with a password that you need to copy and paste instead of **`SMTP_PASSWORD`** in the brackets 'your password'.
     - Note that you won't be able to view the password again, so don't close this browser tab until you use it.
+
+### Privacy and Security Measures for Email Form Submission
+> Privacy is a critical aspect when setting up email form submission. To ensure the privacy of sensitive information, it is highly recommended that you take the following precautions:
+
+- **Do not share your email sending password:** Avoid sharing your email sending password through email or any other communication method like chats or messages. Keep the password in a secure location that only you have access to.
+- **Do not publish the configuration file on public resources:** Never publish the configuration file (e.g., mail.php) on public resources like GitHub or other hosting services. Instead, use a config.php file where you can create variables to store configuration data. It is also recommended to add the **`config.php`** file to **`.gitignore`** to exclude it from the repository when uploading to GitHub.
+Following these precautions will help you protect your privacy and secure your project from potential threats. Please make sure to adhere to these recommendations when setting up email form submission.
 
 That's it! Now you're ready to start receiving form submissions via email.
 
