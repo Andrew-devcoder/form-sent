@@ -51,16 +51,16 @@ To set up email form submission, follow these steps:
 3. Check if your SMTP provider blocks the sending of emails.
 4. If you're using Windows, also check if your OS blocks SMTP sending.
 5. Install Open Server or any other local server that supports sending email.
-6. Configure the **mail.php** file in the following way:
+6. Configure the **`mail.php`** file in the following way:
     - Find the "try {" block and look for the comment "// config.php".
-    - Edit the values: set your email address (e.g. **__"example@gmail.com"__**) for **$mail->Username** and duplicate it for **$mail->setFrom(EMAIL_FROM)**.
-    - In the **$mail->addAddress(EMAIL_TO)** line, replace the **EMAIL_TO** argument with the email address where you want to receive the form submissions (you can use your own email for testing purposes).
-    - Finally, replace the **SMTP_PASSWORD** with the password you generated in the next step.
+    - Edit the values: set your email address (e.g. "**__example@gmail.com__**") for **`$mail->Username`** and duplicate it for **`$mail->setFrom(EMAIL_FROM)`**.
+    - In the **`$mail->addAddress(EMAIL_TO)`** line, replace the **`EMAIL_TO`** argument with the email address where you want to receive the form submissions (you can use your own email for testing purposes).
+    - Finally, replace the **`SMTP_PASSWORD`** with the password you generated in the next step.
 7. Generate an app password in your Google account:
     - Go to your "account" (not your Gmail account but your Google account).
     - In the search bar, type "app passwords".
     - Choose any name to orient yourself.
-    - You will be provided with a password that you need to copy and paste instead of **SMTP_PASSWORD** in the brackets 'your password'.
+    - You will be provided with a password that you need to copy and paste instead of **`SMTP_PASSWORD`** in the brackets 'your password'.
     - Note that you won't be able to view the password again, so don't close this browser tab until you use it.
 
 That's it! Now you're ready to start receiving form submissions via email.
