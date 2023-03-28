@@ -6,8 +6,8 @@ This project involves creating a web form that collects information from users f
 
 ## Table of contents
 
--   [Features](##Features)
--   [Technologies](##Technologies)
+-   [Features](#Features)
+-   [Technologies](#Technologies)
     -   [Screenshot](#screenshot)
     -   [Links](#links)
 -   [My process](#my-process)
