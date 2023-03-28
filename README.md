@@ -2,15 +2,10 @@
 
 <div style="display: flex; align-items: center;">
   <img src="./screenshots/andrew-devcoder.github.io_form-sent_mobile.png" style="object-fit: contain; height: 200px;"/>
-  <img src="./screenshots/andrew-devcoder.github.io_form-sent_.png" style="object-fit: contain; height: 200px;"/>
+  <img src="./screenshots/andrew-devcoder.github.io_form-sent_.png" style="object-fit: contain; height: 200px; max-width: 70%"/>
 </div>
 
-<table>
-  <tr>
-    <td><img src="./screenshots/andrew-devcoder.github.io_form-sent_mobile.png" height="200"></td>
-    <td><img src="./screenshots/andrew-devcoder.github.io_form-sent_.png" width="400"></td>
-  </tr>
-</table>
+
 
 Description:
 This project involves creating a web form that collects information from users for registration. After the user inputs their information, the form sends the received information to a specified email address for processing.
