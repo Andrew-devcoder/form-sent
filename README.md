@@ -8,7 +8,7 @@ This project involves creating a web form that collects information from users f
 
 -   [Features](#Features)
 -   [Technologies](#Technologies)
--   [ You need to](#To-send-a-form-to-email,-you-need-to)
+-   [ You need to](#To-send-a-form-to-email-you-need-to)
     -   [Links](#links)
 -   [My process](#my-process)
     -   [Built with](#built-with)
