@@ -2,7 +2,7 @@
 
 <div style="display: flex; align-items: center;">
   <img src="./screenshots/andrew-devcoder.github.io_form-sent_mobile.png" style="object-fit: contain; height: 200px;"/>
-  <img src="./screenshots/andrew-devcoder.github.io_form-sent_.png" style="object-fit: contain; height: 150px;"/>
+  <img src="./screenshots/andrew-devcoder.github.io_form-sent_.png" style="object-fit: contain; height: 200px;"/>
 </div>
 
 <table>
