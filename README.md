@@ -1,6 +1,5 @@
 # User Registration Form Submission
-![](./reference/mobile-design.jpg)
-![](./reference/desktop-design.jpg)
+![](./screenshots/andrew-devcoder.github.io_form-sent_.png)
 
 Description:
 This project involves creating a web form that collects information from users for registration. After the user inputs their information, the form sends the received information to a specified email address for processing.
@@ -95,6 +94,7 @@ Running this command allows you to add all the necessary classes listed in the *
 
 ### That's it! Now you're ready to start receiving form submissions via email.
 
+![](./reference/mobile-design.jpg)
 
 
 # Frontend Mentor - Intro component with sign up form solution
