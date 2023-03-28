@@ -1,7 +1,7 @@
 # User Registration Form Submission
 
-<div style="display: flex;" flex-direction="row;" max-width="100%;">
-  <img src="./screenshots/andrew-devcoder.github.io_form-sent_mobile.png" height="2000" >
+<div style="display: flex;" flex-direction="row;" >
+  <img src="./screenshots/andrew-devcoder.github.io_form-sent_mobile.png" />
   <img src="./screenshots/andrew-devcoder.github.io_form-sent_.png"/>
 </div>
 
