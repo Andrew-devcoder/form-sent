@@ -1,7 +1,7 @@
 # User Registration Form Submission
 
 <div style="display: flex; align-items: flex-start; flex-direction: row;">
-  <img src="./screenshots/andrew-devcoder.github.io_form-sent_mobile.png" style="object-fit: contain;  width: 20%;"/>
+  <img src="./screenshots/andrew-devcoder.github.io_form-sent_mobile.png" style="object-fit: contain;  width: 25%;"/>
   <img src="./screenshots/andrew-devcoder.github.io_form-sent_.png" style="object-fit: contain;  width: 70%;"/>
 </div>
 
