@@ -2,8 +2,8 @@
 <!-- ![](./screenshots/andrew-devcoder.github.io_form-sent_.png) -->
 
 <div style="display: flex;">
-  <img src="./screenshots/andrew-devcoder.github.io_form-sent_mobile.png" width="400" />
-  <img src="./screenshots/andrew-devcoder.github.io_form-sent_.png" width="400" />
+  <img src="./screenshots/andrew-devcoder.github.io_form-sent_mobile.png" width="30%" />
+  <img src="./screenshots/andrew-devcoder.github.io_form-sent_.png" width="70%" />
 </div>
 
 
