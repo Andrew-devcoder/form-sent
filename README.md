@@ -77,7 +77,7 @@ To set up email form submission, follow these steps:
 > Privacy is a critical aspect when setting up email form submission. To ensure the privacy of sensitive information, it is highly recommended that you take the following precautions:
 
 - **Do not share your email sending password:** Avoid sharing your email sending password through email or any other communication method like chats or messages. Keep the password in a secure location that only you have access to.
-- **Do not publish the configuration file on public resources:** Never publish the configuration file (e.g., mail.php) on public resources like GitHub or other hosting services. Instead, use a config.php file where you can create variables to store configuration data. It is also recommended to add the **```config.php```** file to **`.gitignore`** to exclude it from the repository when uploading to GitHub.
+- **Do not publish the configuration file on public resources:** Never publish the configuration file (e.g., mail.php) on public resources like GitHub or other hosting services. Instead, use a config.php file where you can create variables to store configuration data. It is also recommended to add the ** ```php config.php``` ** file to **`.gitignore`** to exclude it from the repository when uploading to GitHub.
 
 *Following these precautions will help you protect your privacy and secure your project from potential threats. Please make sure to adhere to these recommendations when setting up email form submission.*
 
